@@ -54,7 +54,7 @@ surveys <- read.csv('data/surveys.csv')
 surveys <- read.csv('../../data/biology/surveys.csv')
 ```
 
-__At this point, make sure all participants have the data loaded__
+_At this point, make sure all participants have the data loaded_
 
 This statement doesn't produce any output because assignment doesn't display
 anything. If we want to check that our data has been loaded, we can print the
@@ -75,7 +75,7 @@ function `str()`:
 str(surveys)
 ```
 
-__Also, show how to get this information from the "Environment" tab in RStudio.__
+_Also, show how to get this information from the "Environment" tab in RStudio._
 
 
 ### Challenge
