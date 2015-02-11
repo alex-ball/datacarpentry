@@ -48,6 +48,8 @@ However, to do useful and interesting things, we need to assign _values_ to
 _objects_. To create objects, we need to give it a name followed by the
 assignment operator `<-` and the value we want to give it:
 
+<!-- The following block should be highlighted:
+weight_kg is used below. -->
 ```{r, purl=FALSE}
 weight_kg <- 55
 ```
@@ -128,6 +130,8 @@ the workhorse of R. It's a group of values, mainly either numbers or
 characters. You can assign this list of values to a variable, just like you
 would for one item. For example we can create a vector of animal weights:
 
+<!-- The following block should be highlighted:
+weights is used below. -->
 ```{r, purl=FALSE}
 weights <- c(50, 60, 65, 82)
 weights
@@ -135,6 +139,8 @@ weights
 
 A vector can also contain characters:
 
+<!-- The following block should be highlighted:
+animals is used below. -->
 ```{r, purl=FALSE}
 animals <- c("mouse", "rat", "dog")
 animals
