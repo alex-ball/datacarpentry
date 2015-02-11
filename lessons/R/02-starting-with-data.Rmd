@@ -44,7 +44,8 @@ file.
 * [download the data file](https://github.com/datacarpentry/datacarpentry/raw/master/data/biology/surveys.csv)
 * put it in directory `"data"` within your working directory for these exercises
 
-
+<!-- The following blocks should be highlighted:
+surveys is used below and in Lessons 4 and 5. -->
 ```{r, eval=FALSE,  purl=FALSE}
 surveys <- read.csv('data/surveys.csv')
 ```
@@ -118,6 +119,8 @@ Once created, factors can only contain a pre-defined set values, known as
 *levels*. By default, R always sorts *levels* in alphabetical order. For
 instance, if you have a factor with 2 levels:
 
+<!-- The following block should be highlighted:
+sex is used below. -->
 ```{r, purl=TRUE}
 sex <- factor(c("male", "female", "female", "male"))
 ```
