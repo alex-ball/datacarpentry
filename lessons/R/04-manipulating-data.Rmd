@@ -51,7 +51,11 @@ surveys_DO <- subset(surveys, species == "DO")
 
 ### Challenge
 
-1. What does the following do?
+1. What does the following do? (Try to guess without executing it)
+ 
+  ```{r, purl=FALSE}
+  surveys_DO$month[2] <- 8
+  ```
 
   ```{r, echo=FALSE, purl=TRUE}
   ## What does the following do? (Try to guess without executing it)
