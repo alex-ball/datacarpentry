@@ -59,7 +59,7 @@ example_data <- data.frame(animal=c("dog", "cat", "sea cucumber", "sea urchin"),
 str(example_data)
 ```
 
-__Point to the differences between character and factor output with str()__
+*Point to the differences between character and factor output with str()*
 
 
 ### Challenge
