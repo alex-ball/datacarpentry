@@ -86,6 +86,8 @@ instance `read.csv(file="data/some_data.csv")`.
 
 Let's look at a simple function call:
 
+<!-- The following block should be highlighted:
+surveys is used below and in later lessons. -->
 ```{r, eval=FALSE}
 surveys <- read.csv(file="data/surveys.csv")
 ```
