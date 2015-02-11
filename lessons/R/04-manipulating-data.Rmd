@@ -45,6 +45,8 @@ One way to do this is to select the data we want, and create a new temporary
 array, using the `subset()` function. For instance, if we just want to look at
 the animals of the species "DO":
 
+<!-- The following block should be highlighted:
+surveys_DO is used in the challenge below. -->
 ```{r, purl=FALSE}
 surveys_DO <- subset(surveys, species == "DO")
 ```
@@ -86,6 +88,8 @@ between the 2 letter code and the names are in the file `species.csv`. In this
 file, one column includes the genus and another includes the species. First, we
 are going to import this file in memory:
 
+<!-- The following blocks should be highlighted:
+species is used below. -->
 ```{r, echo=FALSE, purl=FALSE}
 species <- read.csv("../../data/biology/species.csv")
 ```
@@ -102,6 +106,8 @@ the values to be matched against (in our case the 2 letter code in the `species`
 data frame held in the column `species_id`). The function returns the position
 of the matches in the table, and this can be used to retrieve the genus names:
 
+<!-- The following block should be highlighted:
+surveys_spid_index and surveys_genera are used below. -->
 ```{r, purl=TRUE}
 surveys_spid_index <- match(surveys$species, species$species_id)
 surveys_genera <- species$genus[surveys_spid_index]
@@ -151,6 +157,8 @@ Let's create a `data.frame` that contains the information only for the species
 "DO" and "DM". We know how to create the data set for each species with the
 function `subset()`:
 
+<!-- The following block should be highlighted:
+surveys_DO and surveys_DM are used below. -->
 ```{r, purl=FALSE}
 surveys_DO <- subset(surveys, species == "DO")
 surveys_DM <- subset(surveys, species == "DM")
