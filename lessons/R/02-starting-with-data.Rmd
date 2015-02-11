@@ -114,7 +114,7 @@ integers. While factors look (and often behave) like character vectors, they are
 actually integers under the hood, and you need to be careful when treating them
 like strings.
 
-Once created, factors can only contain a pre-defined set values, known as
+Once created, factors can only contain a pre-defined set of values, known as
 *levels*. By default, R always sorts *levels* in alphabetical order. For
 instance, if you have a factor with 2 levels:
 
