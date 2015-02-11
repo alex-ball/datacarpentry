@@ -77,10 +77,13 @@ fix them? Don't hesitate to experiment!
 
 1. Can you predict the class for each of the columns in the following example?
 
-   ```{r, purl=TRUE}
+   ```{r, echo=FALSE, purl=TRUE}
    ## Can you predict the class for each of the columns in the following example?
    ## Check your guesses using `str(country_climate)`. Are they what you expected?
-   ##  Why? why not?
+   ## Why? why not?
+   ```
+   
+   ```{r, purl=TRUE}
    country_climate <- data.frame(country=c("Canada", "Panama", "South Africa", "Australia"),
                                   climate=c("cold", "hot", "temperate", "hot/temperate"),
                                   temperature=c(10, 30, 18, "15"),
@@ -89,7 +92,6 @@ fix them? Don't hesitate to experiment!
    ```
 
    Check your guesses using `str(country_climate)`. Are they what you expected?
-   Why? Why not? Check your gueses using `str(country_climate)`. Are they what you expected?
    Why? Why not?
 
    R coerces (when possible) to the data type that is the least common
